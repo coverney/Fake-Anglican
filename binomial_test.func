@@ -1,0 +1,13 @@
+(sample
+  (defdist (binomial n, p)
+    (loop looper ((total 0), (left n))
+      (if (= left, 0)
+        total
+        (if (= 1, (sample (bernoulli p)))
+          (looper (+ total, 1), (+ left, (- 1)))
+          (looper total, (+ left, (- 1)))
+        )
+      )
+    )
+  ), 10, 0.5
+)

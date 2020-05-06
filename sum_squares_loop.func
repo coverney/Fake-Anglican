@@ -1,0 +1,12 @@
+(let ((stop 5))
+    (loop smsquares
+        ((i 0), (sm 0))
+        (if (= i, stop)
+            sm
+            (begin
+                (print i, sm),
+                (smsquares (+ i, 1), (+ sm, (* i, i)))
+            )
+        )
+    )
+)
