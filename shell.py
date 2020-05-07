@@ -1312,3 +1312,5 @@ if __name__ == "__main__":
     # (cond (true 1), (false 2))
     # (if true (+ 2, 3) (* 2, 3))
     # (let ((stop 5)) (loop smsquares ((i 0), (sm 0)) (if (= i, stop) sm (begin (print i, sm), (smsquares (+ i, 1), (+ sm, (* i, i)))))))
+    # #file binomial_test.func
+    # #file sum_squares_loop.func 
