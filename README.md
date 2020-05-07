@@ -5,4 +5,5 @@
  classes making up the source code, and multiple run time representation Value classes.
 
  The programming language is called Fake Anglican because it is based off of Anglican,
- a probabilistic programming language. More information about our project can be found [here](Probabilistic Programming Slides.pdf).    
+ a probabilistic programming language. More information about our project can be found [here](Probabilistic_Programming_Slides.pdf). If you have any questions, please
+ email coverney@olin.edu or vchen@olin.edu.    
